@@ -271,35 +271,35 @@
 }
 
 /* 
-=========================
+  =========================
    TOGGLE SWITCH UI BUTTONS
    =========================  */
-    .final__toggle-1 {
+    .final_toggle-11 {
     font-family: Helvetica, Arial, sans-serif;
     display: inline-block;
     vertical-align: top;
     margin: 0 15px 0 0;
   }
-  .final__toggle-1__input {
+  .final_toggle-11_input {
     display: none;
   }
-  .final__toggle-1__button {
+  .final_toggle-11_button {
     position: relative;
     display: inline-block;
-    font-size: 14px !important;
-    line-height: 20px !important;
-    text-transform: uppercase !important;
-    background-color: #f2395a !important;
-    border:1px solid #f2395a !important;
-    color: #ffffff !important;
-    width: 100px !important;
-    height: 30px !important;
-    transition: all 0.3s ease !important;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    background-color: #c80c2e;
+    border:1px solid #c80c2e ;
+    color: #ffffff;
+    width: 80px ;
+    height: 30px ;
+    transition: all 0.3s ease ;
     cursor: pointer;
     
   }
   
-  .final__toggle-1__button:before {
+  .final_toggle-11_button:before {
     position: absolute;
     top: 6px;
     left: 40px;
@@ -308,32 +308,32 @@
     height: 20px;
     padding: 0 3px;
     background-color: #ffffff;
-    color: #f2395a;
+    color: #2b54a7;
     content: "off";
     transition: all 0.3s ease;
   }
-  .final__toggle-1__input:checked + .final__toggle-1__button {
-    background-color: #00b3b4;
-    border:1px solid #00b3b4;
+  .final_toggle-11_input:checked + .final_toggle-11_button {
+    background-color: #1d4698;
+    border:1px solid #1d4698;
   }
-  .final__toggle-1__input:checked + .final__toggle-1__button:before {
-    left: 5px !important;
+  .final_toggle-11_input:checked + .final_toggle-11_button:before {
+    left: 5px;
     content: "on";
-    color: #00b3b4;
+    color: #1d4698;
   }
 
 
-  .final__toggle-2 {
+  .final_toggle-22 {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 1rem;
     display: inline-block;
     vertical-align: top;
     margin: 0 15px 0 0;
   }
-  .final__toggle-2__input {
+  .final_toggle-22_input {
     display: none;
   }
-  .final__toggle-2__button {
+  .final_toggle-22_button {
     position: relative;
     display: inline-block;
     line-height: 20px;
@@ -345,7 +345,7 @@
     transition: all 0.3s ease;
     cursor: pointer;
   }
-  .final__toggle-2__button:before {
+  .final_toggle-22_button:before {
     position: absolute;
     top: 10px;
     left: 10px;
@@ -357,11 +357,11 @@
     content: "";
     transition: all 0.3s ease;
   }
-  .final__toggle-2__input:checked + .final__toggle-2__button {
-    background-color: #00b3b4;
-    border-color: #00b3b4;
+  .final_toggle-22_input:checked + .final_toggle-22_button {
+    background-color: #1d4698;
+    border-color: #1d4698;
     color: #ffffff;
   }
-  .final__toggle-2__input:checked + .final__toggle-2__button:before {
+  .final_toggle-22_input:checked + .final_toggle-22_button:before {
     background-color: #ffffff;
   } 
